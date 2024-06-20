@@ -19,6 +19,7 @@
 const numOfWallets = 100;
     
 ## Использование 
-Для создания кошельков запустите скрипт 'generateWallets.js' и будет создана папка с кошельками ~wallets.json~  wallets.csv
+Для создания кошельков запустить одну из команд и будут получены cosmos_wallets.csv или solana_wallets.csv
   ```bash
-node generateWallets.js
+npm run generate-cosmos
+npm run generate-solana
